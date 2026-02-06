@@ -53,16 +53,14 @@ a {
 .nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
-.contacts-link:focus,
-.hero-button:hover,
-.hero-button:focus {
+.contacts-link:focus {
     color: #404bbf;
 } 
 
 
 
 .hero-section {
-    background-color: #2e2f42;;
+background-color: #2e2f42;;
 }
 .hero-title {
     font-weight: 700;
@@ -79,6 +77,26 @@ a {
         letter-spacing: 0.04em;
         color: #fff;
         background-color: #4d5ae5;
+        cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404bbf;
+}
+.features-title { 
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+   
+}
+.features-text {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
 }
 .team-section {
     background-color: #f4f4fd;
